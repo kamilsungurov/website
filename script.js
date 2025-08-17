@@ -84,8 +84,8 @@ contactForm.addEventListener('submit', function(e) {
     const data = Object.fromEntries(formData);
     
     // Validate required fields
-    if (!data.name || !data.telegram || !data.project_type || !data.description || !data.privacy) {
-        alert('Пожалуйста, заполните все обязательные поля и согласитесь с политикой конфиденциальности.');
+    if (!data.name || !data.telegram || !data.project_type || !data.description) {
+        alert('Пожалуйста, заполните все обязательные поля.');
         return;
     }
     
