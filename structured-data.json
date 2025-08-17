@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Камиль",
+  "jobTitle": "Разработчик",
+  "description": "Создаю Telegram-ботов, сайты и AI-видео под ваш бизнес. От идеи до запуска за 3-7 дней.",
+  "url": "https://kamil-dev.ru",
+  "image": "https://kamil-dev.ru/kamil-photo.jpg",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Махачкала",
+    "addressCountry": "RU"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "customer service",
+    "telephone": "+7-928-589-99-61",
+    "email": "kamilsungurov8@gmail.com",
+    "availableLanguage": "Russian"
+  },
+  "sameAs": [
+    "https://t.me/Fmkam123",
+    "https://youtube.com/@rezak_k?si=69xgAvUzkyqrOuoH"
+  ],
+  "offers": [
+    {
+      "@type": "Offer",
+      "name": "Разработка Telegram-ботов",
+      "description": "Командные/меню боты, формы, интеграции с Google Sheets, платежи, AI-функции",
+      "price": "3000",
+      "priceCurrency": "RUB",
+      "priceValidUntil": "2025-12-31",
+      "availability": "https://schema.org/InStock"
+    },
+    {
+      "@type": "Offer", 
+      "name": "Создание сайтов и лендингов",
+      "description": "Промо-лендинги, страницы услуг, портфолио, адаптивный дизайн",
+      "price": "10000",
+      "priceCurrency": "RUB",
+      "priceValidUntil": "2025-12-31",
+      "availability": "https://schema.org/InStock"
+    },
+    {
+      "@type": "Offer",
+      "name": "AI-видео и эдиты",
+      "description": "Трейлеры, шорты, титры, аниме-эдиты для контента и рекламы",
+      "price": "5000",
+      "priceCurrency": "RUB", 
+      "priceValidUntil": "2025-12-31",
+      "availability": "https://schema.org/InStock"
+    }
+  ]
+}

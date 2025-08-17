@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Камиль - Разработка ботов, сайтов и AI-видео | Махачкала</title>
+    <meta name="description" content="Создаю Telegram-ботов, сайты и AI-видео под ваш бизнес. От идеи до запуска за 3-7 дней. Понятные цены и сроки.">
+    <meta name="keywords" content="telegram бот, разработка сайтов, AI видео, программист Махачкала, создание ботов, веб разработка">
+    <meta name="author" content="Камиль">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Камиль - Разработка ботов, сайтов и AI-видео">
+    <meta property="og:description" content="Создаю Telegram-ботов, сайты и AI-видео под ваш бизнес. От идеи до запуска за 3-7 дней.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://kamil-dev.ru">
+    <meta property="og:image" content="https://kamil-dev.ru/og-image.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Камиль - Разработка ботов, сайтов и AI-видео">
+    <meta name="twitter:description" content="Создаю Telegram-ботов, сайты и AI-видео под ваш бизнес. От идеи до запуска за 3-7 дней.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💻</text></svg>">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Камиль",
+      "jobTitle": "Разработчик",
+      "description": "Создаю Telegram-ботов, сайты и AI-видео под ваш бизнес. От идеи до запуска за 3-7 дней.",
+      "url": "https://kamil-dev.ru",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Махачкала",
+        "addressCountry": "RU"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer service",
+        "telephone": "+7-928-589-99-61",
+        "email": "kamilsungurov8@gmail.com",
+        "availableLanguage": "Russian"
+      },
+      "sameAs": [
+        "https://t.me/Fmkam123",
+        "https://youtube.com/@rezak_k?si=69xgAvUzkyqrOuoH"
+      ],
+      "offers": [
+        {
+          "@type": "Offer",
+          "name": "Разработка Telegram-ботов",
+          "description": "Командные/меню боты, формы, интеграции с Google Sheets, платежи, AI-функции",
+          "price": "3000",
+          "priceCurrency": "RUB"
+        },
+        {
+          "@type": "Offer", 
+          "name": "Создание сайтов и лендингов",
+          "description": "Промо-лендинги, страницы услуг, портфолио, адаптивный дизайн",
+          "price": "10000",
+          "priceCurrency": "RUB"
+        },
+        {
+          "@type": "Offer",
+          "name": "AI-видео и эдиты",
+          "description": "Трейлеры, шорты, титры, аниме-эдиты для контента и рекламы",
+          "price": "5000",
+          "priceCurrency": "RUB"
+        }
+      ]
+    }
+    </script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" role="banner">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <div class="logo-placeholder">К</div>
+                    <span>Rezak_k</span>
+                </div>
+                <nav class="nav" role="navigation" aria-label="Основная навигация">
+                    <a href="#services" aria-label="Перейти к разделу услуг">Услуги</a>
+                    <a href="#portfolio" aria-label="Перейти к портфолио">Портфолио</a>
+                    <a href="#pricing" aria-label="Перейти к ценам">Цены</a>
+                    <a href="#contact" aria-label="Перейти к контактам">Контакты</a>
+                </nav>
+                <a href="https://t.me/Fmkam123" class="btn btn-primary" target="_blank" rel="noopener noreferrer" aria-label="Написать в Telegram (откроется в новой вкладке)">Написать в Telegram</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <main>
+    <section class="hero" role="main">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Разрабатываю <span class="gradient-text">Telegram-ботов</span>, 
+                        сайты и <span class="gradient-text">AI-видео</span> под ваш бизнес
+                    </h1>
+                    <p class="hero-subtitle">
+                        От идеи до запуска за 3–7 дней. Понятные цены и сроки.
+                    </p>
+                    <div class="hero-buttons">
+                        <button class="btn btn-primary" onclick="openModal()" aria-label="Открыть форму заявки">Оставить заявку</button>
+                        <a href="#portfolio" class="btn btn-secondary" aria-label="Перейти к портфолио">Посмотреть работы</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="images/Sungurov-Kamil.png" alt="Камиль - разработчик ботов и сайтов" class="hero-photo">
+                </div>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number">50+</span>
+                    <span class="stat-label">Проектов</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">3-7</span>
+                    <span class="stat-label">Дней на запуск</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">24/7</span>
+                    <span class="stat-label">Поддержка</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Мои услуги</h2>
+            <p class="section-subtitle">
+                Соберу бота с нужной логикой и интеграциями. Настрою сайт, который конвертирует. 
+                Сделаю короткие AI-видео для рекламы и соцсетей.
+            </p>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🤖</div>
+                    <h3>Telegram-боты</h3>
+                    <p>Командные/меню боты, формы, интеграции с Google Sheets, платежи, AI-функции</p>
+                    <div class="service-price">от 3 000 ₽</div>
+                    <div class="service-time">2-5 дней</div>
+                    <ul class="service-features">
+                        <li>Меню и команды</li>
+                        <li>Формы и опросы</li>
+                        <li>Интеграции с API</li>
+                        <li>Админ-панель</li>
+                        <li>База данных</li>
+                    </ul>
+                    <button class="btn btn-primary" onclick="openModalWithService('Telegram-бот')" aria-label="Заказать разработку Telegram-бота">Заказать</button>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">🌐</div>
+                    <h3>Сайты и лендинги</h3>
+                    <p>Промо-лендинги, страницы услуг, портфолио, адаптивный дизайн</p>
+                    <div class="service-price">от 10 000 ₽</div>
+                    <div class="service-time">3-7 дней</div>
+                    <ul class="service-features">
+                        <li>Адаптивный дизайн</li>
+                        <li>SEO-оптимизация</li>
+                        <li>Формы обратной связи</li>
+                        <li>Аналитика</li>
+                        <li>Хостинг и домен</li>
+                    </ul>
+                    <button class="btn btn-primary" onclick="openModalWithService('Сайт/лендинг')" aria-label="Заказать разработку сайта или лендинга">Заказать</button>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">⚙️</div>
+                    <h3>Программы и скрипты</h3>
+                    <p>Автоматизация процессов, парсинг данных, простые утилиты</p>
+                    <div class="service-price">от 2 000 ₽</div>
+                    <div class="service-time">1-3 дня</div>
+                    <ul class="service-features">
+                        <li>Парсинг сайтов</li>
+                        <li>Автоматизация задач</li>
+                        <li>Работа с API</li>
+                        <li>Обработка данных</li>
+                        <li>Простые утилиты</li>
+                    </ul>
+                    <button class="btn btn-primary" onclick="openModalWithService('Программа/скрипт')" aria-label="Заказать разработку программы или скрипта">Заказать</button>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">🎬</div>
+                    <h3>AI-видео и эдиты</h3>
+                    <p>Трейлеры, шорты, титры, аниме-эдиты для контента и рекламы</p>
+                    <div class="service-price">от 5 000 ₽</div>
+                    <div class="service-time">2-4 дня</div>
+                    <ul class="service-features">
+                        <li>Аниме-эдиты</li>
+                        <li>Рекламные ролики</li>
+                        <li>Короткие видео</li>
+                        <li>Титры и эффекты</li>
+                        <li>AI-генерация</li>
+                    </ul>
+                    <button class="btn btn-primary" onclick="openModalWithService('AI-видео/эдит')">Заказать</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">Портфолио</h2>
+            <p class="section-subtitle">Примеры моих работ и проектов</p>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder" style="background-image: url('images/medbot.png'); background-size: cover; background-position: center; background-repeat: no-repeat;"></div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Бот для записи к врачу</h3>
+                        <p>Автоматизация записи пациентов с интеграцией календаря</p>
+                        <span class="portfolio-tag">Telegram-бот</span>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder" style="background-image: url('images/itcourses.png'); background-size: cover; background-position: center; background-repeat: no-repeat;"></div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Лендинг для IT-курсов</h3>
+                        <p>Современный адаптивный сайт с формами заявок</p>
+                        <span class="portfolio-tag">Веб-сайт</span>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder" style="background-image: url('images/video-edits.png'); background-size: cover; background-position: center; background-repeat: no-repeat;"></div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Аниме-эдиты</h3>
+                        <p>Серия коротких видео для YouTube канала</p>
+                        <span class="portfolio-tag">AI-видео</span>
+                        <a href="https://youtube.com/@rezak_k?si=69xgAvUzkyqrOuoH" class="portfolio-link" target="_blank" rel="noopener noreferrer">Смотреть на YouTube</a>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder" style="background-image: url('images/parser.png'); background-size: cover; background-position: center; background-repeat: no-repeat;"></div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Парсер товаров</h3>
+                        <p>Автоматический сбор данных с интернет-магазинов</p>
+                        <span class="portfolio-tag">Скрипт</span>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder" style="background-image: url('images/shoping_cart_robot.png'); background-size: cover; background-position: center; background-repeat: no-repeat;"></div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Бот-помощник для магазина</h3>
+                        <p>Каталог товаров, корзина, оплата через Telegram</p>
+                        <span class="portfolio-tag">Telegram-бот</span>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder" style="background-image: url('images/photography-portfolio.png'); background-size: cover; background-position: center; background-repeat: no-repeat;"></div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Портфолио фотографа</h3>
+                        <p>Элегантная галерея с админ-панелью</p>
+                        <span class="portfolio-tag">Веб-сайт</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process">
+        <div class="container">
+            <h2 class="section-title">Процесс работы</h2>
+            <p class="section-subtitle">Короткий бриф, быстрый прототип, прозрачные правки — экономим ваше время</p>
+            <div class="process-steps">
+                <div class="process-step">
+                    <div class="step-number">1</div>
+                    <h3>Бриф</h3>
+                    <p>Обсуждаем задачу, цели и требования</p>
+                    <span class="step-time">15 минут</span>
+                </div>
+                
+                <div class="process-step">
+                    <div class="step-number">2</div>
+                    <h3>Прототип/ТЗ</h3>
+                    <p>Создаю техническое задание и макет</p>
+                    <span class="step-time">0.5-1 день</span>
+                </div>
+                
+                <div class="process-step">
+                    <div class="step-number">3</div>
+                    <h3>Разработка</h3>
+                    <p>Программирую и создаю ваш проект</p>
+                    <span class="step-time">1-5 дней</span>
+                </div>
+                
+                <div class="process-step">
+                    <div class="step-number">4</div>
+                    <h3>Тесты и правки</h3>
+                    <p>Тестирую функционал и вношу правки</p>
+                    <span class="step-time">1 день</span>
+                </div>
+                
+                <div class="process-step">
+                    <div class="step-number">5</div>
+                    <h3>Запуск и поддержка</h3>
+                    <p>Запускаю проект и обеспечиваю поддержку</p>
+                    <span class="step-time">Постоянно</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <h2 class="section-title">Стоимость</h2>
+            <p class="section-subtitle">Прозрачные пакеты с четким списком включенного</p>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3>Start</h3>
+                    <div class="price">от 2 000 ₽</div>
+                    <ul class="pricing-features">
+                        <li>Простые скрипты</li>
+                        <li>Базовые боты</li>
+                        <li>Консультации</li>
+                        <li>Техподдержка 7 дней</li>
+                    </ul>
+                    <button class="btn btn-outline" onclick="openModal()">Выбрать</button>
+                </div>
+                
+                <div class="pricing-card featured">
+                    <div class="popular-badge">Популярный</div>
+                    <h3>Pro</h3>
+                    <div class="price">от 5 000 ₽</div>
+                    <ul class="pricing-features">
+                        <li>Полнофункциональные боты</li>
+                        <li>Лендинги и сайты</li>
+                        <li>AI-видео и эдиты</li>
+                        <li>Интеграции с API</li>
+                        <li>Техподдержка 30 дней</li>
+                    </ul>
+                    <button class="btn btn-primary" onclick="openModal()">Выбрать</button>
+                </div>
+                
+                <div class="pricing-card">
+                    <h3>Custom</h3>
+                    <div class="price">от 10 000 ₽</div>
+                    <ul class="pricing-features">
+                        <li>Сложные проекты</li>
+                        <li>Индивидуальные решения</li>
+                        <li>Полный цикл разработки</li>
+                        <li>Безлимитные правки</li>
+                        <li>Техподдержка 90 дней</li>
+                    </ul>
+                    <button class="btn btn-outline" onclick="openModal()">Обсудить</button>
+                </div>
+            </div>
+            <div class="pricing-note">
+                <p>💡 Предоплата 50%, остальное после сдачи проекта. Все права на код передаются заказчику.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <div class="container">
+            <h2 class="section-title">Частые вопросы</h2>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Какие сроки выполнения проектов?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Простые боты и скрипты — 1-3 дня, сайты и сложные боты — 3-7 дней, AI-видео — 2-4 дня. Точные сроки обсуждаем после анализа задачи.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Предоставляете ли гарантии?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Да, гарантия на исправление багов — 30 дней. Техподдержка и консультации включены в стоимость проекта.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Сколько правок включено?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>В пакет Start — 2 правки, Pro — 5 правок, Custom — безлимитные правки. Дополнительные правки — 500₽ за правку.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Передаете ли исходный код?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Да, все права на код и исходники передаются заказчику после полной оплаты проекта.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Как происходит оплата?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Предоплата 50% для начала работы, остальные 50% после сдачи проекта. Принимаю переводы на карту, СБП, PayPal.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Работаете ли с клиентами из других городов?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Да, работаю удаленно с клиентами по всей России и СНГ. Общение через Telegram, WhatsApp или email.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Контакты</h2>
+            <p class="section-subtitle">Готов обсудить ваш проект прямо сейчас</p>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <div>
+                            <h3>Telegram</h3>
+                            <a href="https://t.me/Fmkam123" target="_blank" rel="noopener noreferrer">@Fmkam123</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">📞</div>
+                        <div>
+                            <h3>WhatsApp</h3>
+                            <a href="https://wa.me/79285899961" target="_blank" rel="noopener noreferrer">+7 928 589-99-61</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">✉️</div>
+                        <div>
+                            <h3>Email</h3>
+                            <a href="mailto:kamilsungurov8@gmail.com" target="_blank" rel="noopener noreferrer">kamilsungurov8@gmail.com</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">🎬</div>
+                        <div>
+                            <h3>YouTube</h3>
+                            <a href="https://youtube.com/@rezak_k?si=69xgAvUzkyqrOuoH" target="_blank" rel="noopener noreferrer">@rezak_k</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <button class="btn btn-primary btn-large" onclick="openModal()">
+                        Оставить заявку
+                    </button>
+                    <p class="contact-note">
+                        Работаю при участии родителя/наставника. Документы и оплата — по согласованию с законным представителем.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <div class="logo">
+                        <div class="logo-placeholder">К</div>
+                        <span>Камиль</span>
+                    </div>
+                    <p>Разработка ботов, сайтов и AI-видео</p>
+                </div>
+                <div class="footer-right">
+                    <div class="footer-links">
+                        <a href="#services">Услуги</a>
+                        <a href="#portfolio">Портфолио</a>
+                        <a href="#pricing">Цены</a>
+                        <a href="#contact">Контакты</a>
+                    </div>
+                    <div class="footer-social">
+                        <a href="https://t.me/Fmkam123" target="_blank" rel="noopener noreferrer">Telegram</a>
+                        <a href="https://youtube.com/@rezak_k?si=69xgAvUzkyqrOuoH" target="_blank" rel="noopener noreferrer">YouTube</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Камиль. Все права защищены.</p>
+                <div class="footer-legal">
+                    <a href="#privacy">Политика конфиденциальности</a>
+                    <a href="#terms">Пользовательское соглашение</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div id="modal" class="modal" role="dialog" aria-labelledby="modal-title" aria-hidden="true">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modal-title">Оставить заявку</h2>
+                <button class="modal-close" onclick="closeModal()" aria-label="Закрыть модальное окно">&times;</button>
+            </div>
+            <form id="contactForm" class="contact-form" role="form" aria-labelledby="modal-title">
+                <div class="form-group">
+                    <label for="name">Имя *</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="telegram">Telegram @username *</label>
+                    <input type="text" id="telegram" name="telegram" placeholder="@username" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                
+                <div class="form-group">
+                    <label for="project_type">Тип проекта *</label>
+                    <select id="project_type" name="project_type" required>
+                        <option value="">Выберите тип проекта</option>
+                        <option value="bot">Telegram-бот</option>
+                        <option value="website">Сайт/лендинг</option>
+                        <option value="script">Программа/скрипт</option>
+                        <option value="video">AI-видео/эдит</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="budget">Бюджет</label>
+                    <select id="budget" name="budget">
+                        <option value="">Выберите бюджет</option>
+                        <option value="2000-5000">2 000 - 5 000 ₽</option>
+                        <option value="5000-10000">5 000 - 10 000 ₽</option>
+                        <option value="10000-20000">10 000 - 20 000 ₽</option>
+                        <option value="20000+">20 000+ ₽</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="description">Описание задачи *</label>
+                    <textarea id="description" name="description" rows="4" placeholder="Опишите, что нужно сделать..." required></textarea>
+                </div>
+                
+
+                
+                <button type="submit" class="btn btn-primary btn-large">Отправить заявку</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
