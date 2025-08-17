@@ -111,9 +111,6 @@ ${data.description}
     // Create Telegram link
     const telegramUrl = `https://t.me/Fmkam123?text=${encodeURIComponent(message)}`;
     
-    // Show success message
-    alert('Заявка сформирована! Сейчас откроется Telegram для отправки.');
-    
     // Open Telegram
     window.open(telegramUrl, '_blank');
     
